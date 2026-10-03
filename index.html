@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Premium personal portfolio of a Full Stack Developer.">
+
+    <title>Alex Morgan | Full Stack Developer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     PRELOADER
+========================= -->
+<div class="preloader" id="preloader">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+<header class="navbar" id="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>AM<span>/&gt;</span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+<main>
+
+<section class="hero section" id="home">
+
+    <div class="hero-background">
+        <div class="gradient-orb orb-one"></div>
+        <div class="gradient-orb orb-two"></div>
+        <div class="grid-background"></div>
+    </div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Available for new opportunities
+            </div>
+
+            <p class="hero-small-title">
+                Hello, I'm
+            </p>
+
+            <h1>
+                Alex <span>Morgan</span>
+            </h1>
+
+            <h2>
+                I'm a
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor">|</span>
+            </h2>
+
+            <p class="hero-description">
+                I build modern, scalable and high-performance digital
+                experiences that combine beautiful design with powerful
+                technology.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Let's Talk
+                </a>
+
+            </div>
+
+            <div class="hero-socials">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO VISUAL -->
+        <div class="hero-visual reveal">
+
+            <div class="code-window">
+
+                <div class="window-header">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="window-title">
+                        developer.js
+                    </div>
+
+                </div>
+
+                <div class="code-content">
+
+<pre><code><span class="code-purple">const</span> developer = {
+    <span class="code-blue">name</span>: <span class="code-green">"Alex Morgan"</span>,
+    <span class="code-blue">role</span>: <span class="code-green">"Full Stack Developer"</span>,
+    <span class="code-blue">experience</span>: <span class="code-orange">5</span>,
+
+    <span class="code-blue">skills</span>: [
+        <span class="code-green">"JavaScript"</span>,
+        <span class="code-green">"Node.js"</span>,
+        <span class="code-green">"React"</span>,
+        <span class="code-green">"SQL"</span>
+    ],
+
+    <span class="code-blue">passion</span>: <span class="code-green">"Building products"</span>
+};
+
+<span class="code-purple">export default</span> developer;</code></pre>
+
+                </div>
+
+            </div>
+
+            <div class="floating-card card-one">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <strong>5+</strong>
+                    <small>Years Experience</small>
+                </div>
+            </div>
+
+            <div class="floating-card card-two">
+                <i class="fa-solid fa-rocket"></i>
+                <div>
+                    <strong>50+</strong>
+                    <small>Projects Completed</small>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="#about" class="scroll-down">
+        <span>Scroll to explore</span>
+        <i class="fa-solid fa-arrow-down"></i>
+    </a>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+<section class="section about-section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-label">01 — ABOUT ME</span>
+
+            <h2>
+                Turning ideas into
+                <span>digital products.</span>
+            </h2>
+
+            <p>
+                I am a passionate Full Stack Developer focused on creating
+                reliable, scalable and enjoyable web experiences.
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-image reveal">
+
+                <div class="profile-card">
+
+                    <div class="profile-glow"></div>
+
+                    <div class="profile-placeholder">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="profile-info">
+                        <strong>Alex Morgan</strong>
+                        <span>Full Stack Developer</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content reveal">
+
+                <h3>
+                    Building the web,
+                    one line of code at a time.
+                </h3>
+
+                <p>
+                    I specialize in developing full-stack applications
+                    from concept to production. My goal is to create
+                    software that is not only visually impressive,
+                    but also fast, maintainable and scalable.
+                </p>
+
+                <p>
+                    I enjoy solving complex problems, learning new
+                    technologies and transforming ideas into products
+                    that people actually love using.
+                </p>
+
+
+                <div class="about-stats">
+
+                    <div class="stat">
+                        <strong>50+</strong>
+                        <span>Projects</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>20+</strong>
+                        <span>Clients</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>5+</strong>
+                        <span>Years</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SKILLS
+========================= -->
+<section class="section skills-section" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading centered reveal">
+
+            <span class="section-label">02 — SKILLS</span>
+
+            <h2>
+                Tools I use to
+                <span>build things.</span>
+            </h2>
+
+            <p>
+                Technologies and tools I use to transform ideas
+                into production-ready applications.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon html">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+                <p>Semantic and accessible web structure.</p>
+                <div class="skill-level">
+                    <span style="width: 95%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-card reveal">
+                <div class="skill-icon css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <h3>CSS3</h3>
+                <p>Modern responsive interfaces and animations.</p>
+                <div class="skill-level">
+                    <span style="width: 92%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-card reveal">
+                <div class="skill-icon js">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Interactive and dynamic web experiences.</p>
+                <div class="skill-level">
+                    <span style="width: 90%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-card reveal">
+                <div class="skill-icon node">
+                    <i class="fa-brands fa-node-js"></i>
+                </div>
+                <h3>Node.js</h3>
+                <p>Scalable backend applications and APIs.</p>
+                <div class="skill-level">
+                    <span style="width: 88%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-card reveal">
+                <div class="skill-icon database">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <h3>SQL</h3>
+                <p>Data modeling, queries and optimization.</p>
+                <div class="skill-level">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-card reveal">
+                <div class="skill-icon git">
+                    <i class="fa-brands fa-git-alt"></i>
+                </div>
+                <h3>Git</h3>
+                <p>Version control and collaborative workflows.</p>
+                <div class="skill-level">
+                    <span style="width: 90%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROJECTS
+========================= -->
+<section class="section projects-section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-label">03 — PROJECTS</span>
+
+            <h2>
+                Selected
+                <span>work.</span>
+            </h2>
+
+            <p>
+                A few projects that showcase my experience,
+                creativity and technical skills.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+            <article class="project-card reveal">
+
+                <div class="project-image project-one">
+
+                    <div class="project-overlay">
+
+                        <a href="#" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <h3>E-Commerce Platform</h3>
+
+                    <p>
+                        A modern e-commerce platform with product
+                        management, shopping cart, authentication
+                        and payment integration.
+                    </p>
+
+                    <a href="#" class="project-read-more">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+            <article class="project-card reveal">
+
+                <div class="project-image project-two">
+
+                    <div class="project-overlay">
+
+                        <a href="#" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <h3>Analytics Dashboard</h3>
+
+                    <p>
+                        A powerful analytics dashboard for monitoring
+                        business performance and visualizing real-time data.
+                    </p>
+
+                    <a href="#" class="project-read-more">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+            <article class="project-card reveal">
+
+                <div class="project-image project-three">
+
+                    <div class="project-overlay">
+
+                        <a href="#" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <h3>AI Landing Page</h3>
+
+                    <p>
+                        A premium landing page designed for an AI
+                        technology product with interactive sections.
+                    </p>
+
+                    <a href="#" class="project-read-more">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+            <article class="project-card reveal">
+
+                <div class="project-image project-four">
+
+                    <div class="project-overlay">
+
+                        <a href="#" class="project-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#" class="project-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>Web App</span>
+                    </div>
+
+                    <h3>Task Management App</h3>
+
+                    <p>
+                        A productivity application for creating,
+                        organizing and tracking tasks efficiently.
+                    </p>
+
+                    <a href="#" class="project-read-more">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+<section class="section experience-section" id="experience">
+
+    <div class="container">
+
+        <div class="section-heading centered reveal">
+
+            <span class="section-label">04 — EXPERIENCE</span>
+
+            <h2>
+                My professional
+                <span>journey.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    2024 — Present
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Senior Full Stack Developer</h3>
+
+                    <h4>Tech Company</h4>
+
+                    <p>
+                        Leading development of scalable web applications,
+                        mentoring developers and designing modern
+                        software architectures.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    2022 — 2024
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Full Stack Developer</h3>
+
+                    <h4>Digital Agency</h4>
+
+                    <p>
+                        Built websites, dashboards and business applications
+                        for clients across different industries.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    2021 — 2022
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Frontend Developer</h3>
+
+                    <h4>Startup</h4>
+
+                    <p>
+                        Developed responsive interfaces and interactive
+                        experiences using modern frontend technologies.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+<section class="section contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="contact-wrapper reveal">
+
+            <div class="contact-info">
+
+                <span class="section-label">05 — CONTACT</span>
+
+                <h2>
+                    Let's build something
+                    <span>great together.</span>
+                </h2>
+
+                <p>
+                    Have an idea, project or opportunity?
+                    I'd love to hear from you.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <a href="mailto:alex@example.com">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <small>Email</small>
+                            <strong>alex@example.com</strong>
+                        </div>
+                    </a>
+
+
+                    <a href="tel:+1234567890">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <small>Phone</small>
+                            <strong>+1 234 567 890</strong>
+                        </div>
+
+                    </a>
+
+
+                    <div class="contact-detail">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <small>Location</small>
+                            <strong>Cairo, Egypt</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form class="contact-form" id="contactForm">
+
+                <div class="form-group">
+
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="John Doe"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">Your Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="john@example.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Tell me about your project..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="btn btn-primary submit-btn">
+
+                    Send Message
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+                <p class="form-message" id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+<footer class="footer">
+
+    <div class="container footer-container">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>AM<span>/&gt;</span>
+        </a>
+
+        <p>
+            Designed & Built by Alex Morgan
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> Alex Morgan. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
